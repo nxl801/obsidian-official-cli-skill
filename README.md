@@ -1,5 +1,7 @@
 # Obsidian Official CLI Skill for OpenClaw
 
+[中文版本 / Chinese version](./README.zh-CN.md)
+
 An OpenClaw-compatible AgentSkill for working with the **official Obsidian 1.12+ CLI** (`obsidian`).
 
 This skill is built for **retrieval-first** agent workflows against a running Obsidian desktop app. It is especially useful for OpenClaw, Claude Code, and similar agent systems that want to query a live Obsidian vault transparently, without making vector import the default path.
@@ -41,6 +43,7 @@ It defaults to a **read-first** posture and documents safer boundaries around wr
 
 - `obsidian-official-cli/` — skill source
 - `dist/obsidian-official-cli.skill` — packaged skill artifact
+- `README.zh-CN.md` — Chinese README
 
 ## Requirements
 
